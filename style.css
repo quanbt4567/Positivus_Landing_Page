@@ -632,14 +632,8 @@ h4 {
     display: inline-block;
     width: 14px;
     height: 14px;
-    background-color: var(--white);
     margin: 0 10px;
 }
-
-.star-dot.active {
-    background-color: var(--green);
-}
-
 
 .contact {
     margin-top: 140px;
