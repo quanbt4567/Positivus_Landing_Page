@@ -60,7 +60,7 @@ h4 {
     padding: 0 100px;
 }
 
-/* Buttons */
+
 .btn {
     display: inline-flex;
     align-items: center;
@@ -106,7 +106,7 @@ h4 {
     width: 100%;
 }
 
-/* Section Heading Common */
+
 .section-head {
     display: flex;
     flex-direction: row;
@@ -127,7 +127,7 @@ h4 {
     font-size: 18px;
 }
 
-/* Header & Navigation */
+
 .header {
     padding-top: 60px;
 }
@@ -171,7 +171,7 @@ h4 {
     text-decoration: underline;
 }
 
-/* Hero Section */
+
 .hero {
     margin-top: 70px;
 }
@@ -206,7 +206,7 @@ h4 {
     height: 515px;
 }
 
-/* Partners Section */
+
 .partners {
     margin-top: 70px;
 }
@@ -223,7 +223,7 @@ h4 {
     opacity: 0.85;
 }
 
-/* Services Section */
+
 .services {
     margin-top: 140px;
 }
@@ -315,7 +315,7 @@ h4 {
     width: 210px;
 }
 
-/* CTA Section */
+
 .cta {
     margin-top: 100px;
 }
@@ -356,7 +356,7 @@ h4 {
     height: 394px;
 }
 
-/* Case Studies Section */
+
 .cases {
     margin-top: 140px;
 }
@@ -400,7 +400,7 @@ h4 {
     background-color: var(--white);
 }
 
-/* Working Process Section */
+
 .process {
     margin-top: 140px;
 }
@@ -473,7 +473,7 @@ h4 {
     margin: 30px 0;
 }
 
-/* Team Section */
+
 .team {
     margin-top: 140px;
 }
@@ -548,7 +548,7 @@ h4 {
     width: 269px;
 }
 
-/* Testimonials Section */
+
 .testimonials {
     margin-top: 140px;
 }
@@ -578,28 +578,18 @@ h4 {
 }
 
 .testimonial-bubble {
-    border: 1px solid var(--green);
-    border-radius: 45px;
-    padding: 48px 52px;
+    width: 606px;
+    height: 266px;
+    background-image: url("assets/Bubble.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 48px 52px 80px 52px;
     color: var(--white);
-    background-color: var(--dark);
-    position: relative;
-}
-
-.testimonial-bubble::after {
-    content: "";
-    position: absolute;
-    bottom: -16px;
-    left: 60px;
-    width: 30px;
-    height: 30px;
-    background-color: var(--dark);
-    border-right: 1px solid var(--green);
-    border-bottom: 1px solid var(--green);
 }
 
 .testimonial-author {
-    margin-top: 40px;
+    margin-top: 20px;
     padding-left: 80px;
 }
 
@@ -650,7 +640,7 @@ h4 {
     background-color: var(--green);
 }
 
-/* Contact Section */
+
 .contact {
     margin-top: 140px;
 }
@@ -741,7 +731,7 @@ h4 {
     height: 648px;
 }
 
-/* Footer Section */
+
 .footer {
     margin-top: 140px;
 }
