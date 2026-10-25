@@ -772,8 +772,6 @@ h4 {
 .footer-socials a {
     width: 30px;
     height: 30px;
-    background-color: var(--white);
-    color: var(--black);
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
