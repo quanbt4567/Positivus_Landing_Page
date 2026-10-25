@@ -220,7 +220,7 @@ h4 {
 
 .partners img {
     height: 48px;
-    opacity: 0.85;
+    filter: grayscale(1);
 }
 
 
